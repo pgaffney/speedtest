@@ -1,0 +1,47 @@
+Downloading/unpacking speedtest-cli
+  Getting page https://pypi.python.org/simple/speedtest-cli/
+  URLs to search for versions for speedtest-cli:
+  * https://pypi.python.org/simple/speedtest-cli/
+  Analyzing links from page https://pypi.python.org/simple/speedtest-cli/
+    Found link https://pypi.python.org/packages/2.7/s/speedtest-cli/speedtest_cli-0.3.2-py2.py3-none-any.whl#md5=09b000d0a093d3d832fdeeb0795802ef (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.2
+    Found link https://pypi.python.org/packages/2.7/s/speedtest-cli/speedtest_cli-0.3.3-py2.py3-none-any.whl#md5=ab737c526bd599155dbfce45e97ee66e (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.3
+    Found link https://pypi.python.org/packages/2.7/s/speedtest-cli/speedtest_cli-0.3.4-py2.py3-none-any.whl#md5=e31173ad58f606c0fe200915bc71a910 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.4
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.1.tar.gz#md5=30948affed31b31fefc1d4679c4a7d93 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.1
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.2.tar.gz#md5=dcf5c880ca6f021cc4e1b031b1cd379e (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.2
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.3.tar.gz#md5=49dcbbbe271dfbc30ebb92faf3735dfe (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.3
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.4.tar.gz#md5=25334d1d856c884cacfaee01bdec83a6 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.4
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.5.tar.gz#md5=e38194f405ef04926066923ad6f0f9b7 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.5
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.6.tar.gz#md5=95e770d855169ecbfba4bba7078ab201 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.6
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.7.tar.gz#md5=1d36ea0e58a6d3504fac2377a036f6bd (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2.7
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.2.tar.gz#md5=9fedff5ba3964184ce2fda4b836bb179 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.2
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.3.0.tar.gz#md5=9b892ef1795cbc96156f441ed28f9773 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.0
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.3.1.tar.gz#md5=3f2ecb8ed37c7e2ea180383330c44b79 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.1
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.3.2.tar.gz#md5=7198a5e10d79fe3b408b553a7e59d484 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.2
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.3.3.tar.gz#md5=1d918e2e1c1468bb8e301f85e7ed93a8 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.3
+    Found link https://pypi.python.org/packages/source/s/speedtest-cli/speedtest-cli-0.3.4.tar.gz#md5=b31705b6fd47fa7e1f0f930b4446c731 (from https://pypi.python.org/simple/speedtest-cli/), version: 0.3.4
+  Using version 0.3.4 (newest of versions: 0.3.4, 0.3.4, 0.3.3, 0.3.3, 0.3.2, 0.3.2, 0.3.1, 0.3.0, 0.2.7, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2)
+  Downloading speedtest_cli-0.3.4-py2.py3-none-any.whl
+  Downloading from URL https://pypi.python.org/packages/2.7/s/speedtest-cli/speedtest_cli-0.3.4-py2.py3-none-any.whl#md5=e31173ad58f606c0fe200915bc71a910 (from https://pypi.python.org/simple/speedtest-cli/)
+Installing collected packages: speedtest-cli
+Cleaning up...
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 295, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 672, in install
+    self.move_wheel_files(self.source_dir, root=root)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 902, in move_wheel_files
+    pycompile=self.pycompile,
+  File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 214, in move_wheel_files
+    clobber(source, lib_dir, True)
+  File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 208, in clobber
+    shutil.copy2(srcfile, destfile)
+  File "/usr/lib/python2.7/shutil.py", line 130, in copy2
+    copyfile(src, dst)
+  File "/usr/lib/python2.7/shutil.py", line 83, in copyfile
+    with open(dst, 'wb') as fdst:
+IOError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/speedtest_cli.py'
