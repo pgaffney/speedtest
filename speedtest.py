@@ -21,7 +21,7 @@ def test():
         #if speedtest could not connect set the speeds to 0
         if "Cannot" in speedtestResults:
                 ping = 100
-                dowload = 0
+                download = 0
                 upload = 0
 
         #extract the values for ping down and up values
