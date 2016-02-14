@@ -72,8 +72,6 @@ def test():
     #                pass
     return
 
-
-if __name__ == '__main__':
-    print 'starting test cycle...'
-    test()
-    print 'test cycle completed'
+print 'starting test cycle...'
+test()
+print 'test cycle completed'
